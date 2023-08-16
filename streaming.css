@@ -1,0 +1,40 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.n-btn{
+    background-color: firebrick;
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px darkred;
+    padding: 40px 100px;
+    min-height: 30px;
+    min-width: 130px;
+}
+
+.n-btn:hover {
+    background-color: darkred;
+    transition: 0.7s;
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px maroon;
+}
+
+.n-btn:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px rgb(159, 4, 4);
+    transition: 0.7s;
+}
+
+.n-btn:active{
+    background-color: rgb(93, 20, 20);
+}
+
+
+

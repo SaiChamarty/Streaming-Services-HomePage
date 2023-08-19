@@ -7,11 +7,11 @@ body {
     margin: 50px auto;
 }
 
+/*STYLING FOR NETFLIX BUTTON*/
 .n-btn{
     background-color: firebrick;
     border: 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px darkred;
     padding: 40px 100px;
     min-height: 30px;
     min-width: 130px;
@@ -22,19 +22,75 @@ body {
     transition: 0.7s;
     border: 10px;
     border-radius: 20px;
-    box-shadow: 5px 5px maroon;
 }
 
 .n-btn:focus {
     outline-color: transparent;
     outline-style: solid;
-    box-shadow: 0 0 0 4px rgb(159, 4, 4);
     transition: 0.7s;
 }
 
 .n-btn:active{
     background-color: rgb(93, 20, 20);
 }
+
+/*STYLING FOR AHA BUTTON*/
+
+.a-btn{
+    background-color: rgb(255, 110, 0);
+    border: 10px;
+    border-radius: 20px;
+    padding: 40px 100px;
+    min-height: 30px;
+    min-width: 130px;
+}
+
+.a-btn:hover{
+    background-color: rgb(186, 80, 0);
+    transition: 0.7s;
+    border: 10px;
+    border-radius: 20px;
+}
+
+.a-btn:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    transition: 0.7s;
+}
+
+.a-btn:active{
+    background-color: rgb(131, 60, 0);
+}
+
+/*STYLING FOR AHA BUTTON*/
+
+.ap-btn{
+    background-color: black;
+    border: 10px;
+    border-radius: 20px;
+    padding: 40px 100px;
+    min-height: 30px;
+    min-width: 130px;
+}
+
+.ap-btn:hover{
+    background-color: black;
+    transition: 0.7s;
+    border: 10px;
+    border-radius: 20px;
+}
+
+.ap-btn:focus {
+    outline-color: transparent;
+    outline-style: solid;
+    transition: 0.7s;
+}
+
+.ap-btn:active{
+    background-color: black;
+}
+
+
 
 
 
